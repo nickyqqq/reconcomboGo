@@ -1,0 +1,22 @@
+# Binary
+reconcombo
+reconcombo-*
+*.exe
+
+# Output directories
+reconcombo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.out
+coverage.html
