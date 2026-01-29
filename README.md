@@ -38,14 +38,10 @@ Before running ReconCombo, ensure the following tools are installed:
 
 ```bash
 go install github.com/nickyqqq/reconcomboGo@latest
+sudo cp $(go env GOPATH)/bin/reconcombo /usr/local/bin/
 ```
 
-This will automatically download, build, and install the `reconcombo` binary to your `$GOPATH/bin` directory (usually `~/go/bin`).
-
-Make sure `$GOPATH/bin` is in your `$PATH`:
-```bash
-export PATH=$PATH:$(go env GOPATH)/bin
-```
+This will download, build, and install the `reconcombo` binary to `/usr/local/bin` so you can use it just like `subfinder`.
 
 ## Usage
 
