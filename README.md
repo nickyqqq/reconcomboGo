@@ -2,6 +2,7 @@
 
 A powerful reconnaissance tool written in Go that automates the process of gathering information about target domains. It combines multiple tools to provide comprehensive reconnaissance data.
 
+![Screenshot](./images/reconcomboGo.png)
 ![Made by nickyqqq](https://img.shields.io/badge/Made%20by-nickyqqq-blue)
 
 ## Features
