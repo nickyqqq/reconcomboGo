@@ -32,8 +32,6 @@ Before running ReconCombo, ensure the following tools are installed:
 
 ## Installation
 
-### Option 1: Install with Go (Recommended)
-
 ```bash
 go install github.com/nickyqqq/reconcomboGo@latest
 ```
@@ -43,36 +41,6 @@ This will automatically download, build, and install the `reconcombo` binary to 
 Make sure `$GOPATH/bin` is in your `$PATH`:
 ```bash
 export PATH=$PATH:$(go env GOPATH)/bin
-```
-
-### Option 2: Build from Source
-
-```bash
-# Clone the repository
-git clone https://github.com/nickyqqq/reconcomboGo.git
-cd reconcomboGo
-
-# Build the binary
-make build
-
-# Install to ~/.local/bin
-make install
-```
-
-### Option 3: Direct Build
-
-```bash
-go build -o reconcombo .
-sudo mv reconcombo /usr/local/bin/
-```
-
-### Option 4: Download Pre-built Binary
-
-```bash
-# Download the latest release for your platform
-wget https://github.com/nickyqqq/reconcomboGo/releases/download/v1.0/reconcombo-linux
-chmod +x reconcombo-linux
-sudo mv reconcombo-linux /usr/local/bin/reconcombo
 ```
 
 ## Usage
